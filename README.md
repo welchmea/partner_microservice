@@ -2,13 +2,28 @@
 
 Steps to retrieve data from USDA FoodData Central API
 
-1. import requests library 
-2. Define search parameters:
-      param = {query:value} <-- must use query as the key
+1. import requests library
 
-3. Send a POST request to the following url with param
+2. Define search parameters:
+      param = {query:value} <-- must use 'query' as the key
+   
+REQUEST DATA
+
+The app is currently hosted on Heroku.
+
+3. Send a GET request to the following url with param
       url = https://partnermicro.herokuapp.com 
-      response = requests.post(url, params=param)
+      response = requests.get(url, params=param)
+      
+RECEIVE DATA
  
-4. print(response.json())
+4. print(response.json(), can also use response.text
+
+UML diagram:
+
+![UMLmicroservice drawio](https://user-images.githubusercontent.com/107885378/236893149-4f681d66-2440-4dd0-b5e4-2008fc076788.png)
+
+
+
+
 
