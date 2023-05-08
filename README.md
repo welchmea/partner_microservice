@@ -17,7 +17,7 @@ The app is currently hosted on Heroku.
       
 RECEIVE DATA
  
-4. print(response.json(), can also use response.text
+4. print(response.json() OR response.text will also work.
 
 UML diagram:
 
