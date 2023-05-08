@@ -6,6 +6,7 @@ Steps to retrieve data from USDA FoodData Central API
 
 2. Define search parameters:
       param = {query:value} <-- must use 'query' as the key
+      * value represents the food the user is wanting to receive data about.
    
 REQUEST DATA
 
