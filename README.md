@@ -14,6 +14,7 @@ Microservice is hosted on Heroku
 
 3. Send a GET request to the following url with param
       url = 'https://partnermicro.herokuapp.com/'
+     
       response = requests.get(url, params=param)
       
 RECEIVE DATA
